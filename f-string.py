@@ -8,3 +8,9 @@ current_year = 2025
 what_year = f"The year is {2025}"
 
 print(what_year)
+
+# escape char
+
+clan = "Am the leader of \"Mugu\" clan doing iligal thing things."
+
+print(clan)
