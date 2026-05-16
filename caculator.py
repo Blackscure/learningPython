@@ -1,7 +1,7 @@
-x  = int(input("What's x? "))
+x  = float(input("What's x? "))
 
-y = int(input("Whats' y? "))
+y = float(input("Whats' y? "))
 
+z = round(x / y,2)
 
-
-print( x + y)
+print(f"{z:,}")

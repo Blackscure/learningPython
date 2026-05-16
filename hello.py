@@ -1,7 +1,9 @@
-# Ask use name
-name = input("What is your name? ").strip().title()
+def main():
+    x = int(input("What's X"))
 
+    print("X squared is", square(x))
 
+def square(n):
+    return n * n
 
-
-print(f"Hello, {name}")
+main()
